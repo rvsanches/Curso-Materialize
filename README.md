@@ -1,6 +1,6 @@
 # Curso Materialize
 Arquivos da série de vídeos que vai te ensinar a criar seu site responsivo com Materialize\
-**Assista todos os vídeos** [nesta playlist do YouTube](https://www.youtube.com/playlist?list=PLBbHLUbqqCrT1gBZtTminYijo8DVpPynE "nesta playlist do YouTube").
+**Assista todos os vídeos** [nesta playlist do YouTube](https://www.youtube.com/watch?v=k2QoQLaP7Lc&list=PLBbHLUbqqCrQCKMu6pXaxf8DigJ9iTOcQ "nesta playlist do YouTube").
 
 ### Onde me encontrar
 - [Instagram](https://www.instagram.com/rvsanches/ "Instagram")
