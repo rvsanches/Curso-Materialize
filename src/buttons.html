@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize - Grid</title>
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+ 
+    <div class="container">
+
+        <h1>Botões</h1>
+
+        <!-- Botão básico -->
+        <button class="btn waves-light waves-effect" type="submit">
+            <i class="material-icons left">send</i> Enviar
+        </button>
+
+        <!-- Botão básico com outra cor -->
+        <button class="btn waves-light waves-effect orange darken-2" type="submit">
+            <i class="material-icons left">close</i> Cancelar
+        </button>
+
+        <!-- Botão sem sombra -->
+        <button class="btn waves-light waves-effect cyan darken-2 white-text btn-flat" type="submit">
+            Editar
+        </button>
+
+        <!-- Botão desabilitado -->
+        <button class="btn waves-light waves-effect cyan darken-2 disabled" type="submit">
+            Editar
+        </button>
+
+        <h3>Tamanhos</h3>
+
+        <!-- Botão pequeno -->
+        <button class="btn waves-light waves-effect btn-small" type="submit">Enviar</button>
+        <button class="btn waves-light waves-effect" type="submit">Enviar</button>
+        <!-- Botão grande -->
+        <button class="btn waves-light waves-effect btn-large" type="submit">Enviar</button>
+
+        <h3>Floating</h3>
+
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Meu Card</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel deleniti at perferendis quisquam atque quidem velit ipsam facere? Doloribus, necessitatibus?</p>
+            </div>
+            <div class="card-action">
+                <!-- Botão redondo -->
+                <button class="btn waves-light waves-effect red btn-floating">
+                    <i class="material-icons left">close</i>
+                </button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title">Meu Card</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel deleniti at perferendis quisquam atque quidem velit ipsam facere? Doloribus, necessitatibus?</p>
+                <!-- Botão redondo na base -->
+                <button class="btn waves-light waves-effect red btn-floating pulse halfway-fab">
+                        <i class="material-icons left">close</i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Botão de ação -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">edit</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating red"><i class="material-icons">timeline</i></a></li>
+            <li><a class="btn-floating yellow darken-3"><i class="material-icons">backup</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">build</i></a></li>
+        </ul>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
