@@ -10,7 +10,11 @@ const elemsDropdown = document.querySelectorAll(".dropdown-trigger");
 const instancesDropdown = M.Dropdown.init(elemsDropdown, {
     coverTrigger: false
 });
-elemsSidenav = document.querySelectorAll(".sidenav");
+const elemsSidenav = document.querySelectorAll(".sidenav");
 const instancesSidenav = M.Sidenav.init(elemsSidenav, {
     edge: "left"
 });
+
+// Modal
+const elemsModal = document.querySelectorAll(".modal");
+const instancesModal = M.Modal.init(elemsModal);
