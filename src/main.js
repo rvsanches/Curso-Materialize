@@ -18,3 +18,10 @@ const instancesSidenav = M.Sidenav.init(elemsSidenav, {
 // Modal
 const elemsModal = document.querySelectorAll(".modal");
 const instancesModal = M.Modal.init(elemsModal);
+
+// Tooltip
+const elemsTooltip = document.querySelectorAll(".tooltipped");
+const instanceTooltip = M.Tooltip.init(elemsTooltip, {
+    html: "Olha essa dica!",
+    position: "right"
+});
